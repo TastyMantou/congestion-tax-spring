@@ -90,7 +90,7 @@ public class CongestionTaxCalculator {
         int day = date.getDay() + 1;
         int dayOfMonth = date.getDate();
 
-       // if (day == Calendar.SATURDAY || day == Calendar.SUNDAY) return true;
+        if (day == Calendar.SATURDAY || day == Calendar.SUNDAY) return true;
 
       //  if (year >= 2013)
     //    {
